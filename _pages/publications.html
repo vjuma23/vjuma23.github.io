@@ -1,36 +1,19 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p>Selected peer-reviewed publications are listed below. This page can later be expanded into a complete publication record with DOI, PDF, and citation links.</p>
 
-{% include base_path %}
+<h2>Selected publications</h2>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<ol reversed>
+  <li><strong>Victor Ogesa Juma</strong>, Kudzanayi Zebedia Mapfumo, Stéphanie Portet and Anotida Madzvamuse. “Using Floquet theory to unravel far-from equilibrium dynamics in reaction–diffusion systems.” <em>PNAS Nexus</em>, 5(3), pgag071, 2026. <a href="https://doi.org/10.1093/pnasnexus/pgag071">DOI</a></li>
+  <li>Vincent Nandwa Chiteri, <strong>Victor Ogesa Juma</strong>, James Mariita Okwoyo, Stephen Kibet Moindi, Kudzanayi Zebedia Mapfumo and Anotida Madzvamuse. “Exploring the spatio-temporal dynamics in activator-inhibitor systems through a dual approach of analysis and computation.” <em>Mathematical Biosciences</em>, 385, 109449, 2025. <a href="https://doi.org/10.1016/j.mbs.2025.109449">DOI</a></li>
+  <li>Kudzanayi Zebedia Mapfumo, <strong>Victor Ogesa Juma</strong>, Gulsemay Yigit, Gift Muchatibaya and Anotida Madzvamuse. “Analysis of the spatio-temporal dynamics of a Rho-GEF-H1-myosin activator-inhibitor reaction-diffusion system.” <em>Royal Society Open Science</em>, 12(4), 241077, 2025. <a href="https://doi.org/10.1098/rsos.241077">DOI</a></li>
+  <li>Wandera Ogana, <strong>Victor Ogesa Juma</strong> and Wallace D. Bulimo. “Mathematical modelling of non-pharmaceutical interventions to control infectious diseases: application to COVID-19 in Kenya.” <em>Frontiers in Applied Mathematics and Statistics</em>, 10, 2024. <a href="https://doi.org/10.3389/fams.2024.1365184">DOI</a></li>
+  <li><strong>Victor Ogesa Juma</strong> et al. “Effects of tumour heterogeneous properties on modelling the transport of radiative particles.” <em>International Journal for Numerical Methods in Biomedical Engineering</em>, 39(11), e3760, 2023. <a href="https://doi.org/10.1002/cnm.3760">DOI</a></li>
+  <li><strong>Victor Ogesa Juma</strong>, Leif Dehmelt, Stéphanie Portet and Anotida Madzvamuse. “A mathematical analysis of an activator-inhibitor Rho GTPase model.” <em>Journal of Computational Dynamics</em>, 9(2), 133–158, 2022. <a href="https://doi.org/10.3934/jcd.2021024">DOI</a></li>
+</ol>

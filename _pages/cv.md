@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -7,58 +7,36 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Current position
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**Lecturer**, School of Computer Science and Applied Mathematics, University of the Witwatersrand, Johannesburg, South Africa.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **PhD in Mathematics**, University of Sussex, 2019. Thesis: *Data-driven mathematical modelling and simulation of Rho-Myosin dynamics*.
+- **MSc in Applied Mathematics**, University of Nairobi, 2015.
+- **BSc in Mathematics, First Class Honours**, University of Nairobi, 2013.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Previous appointments
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+- Postdoctoral Research & Teaching Fellow, Mathematics, University of British Columbia, Canada.
+- Postdoctoral Researcher, Mechanical Engineering, University of Zaragoza, Spain.
+- Part-time Lecturer, University of Nairobi, Kenya.
+- Marie Skłodowska-Curie Early Stage Researcher, University of Sussex, UK.
+- Visiting Researcher, University of Manitoba, Canada.
+
+## Research interests
+
+Mathematical biology; reaction–diffusion systems; dynamical systems; pattern formation; mechanochemical modelling; tumour growth and radiotherapy; epidemiology; numerical analysis; parameter estimation; finite-element methods.
+
+## Selected distinctions
+
+- Gold Medal, University of Nairobi, best overall student, Academic Year 2012/2013.
+- Marie Skłodowska-Curie Innovative Training Network fellowship.
+- KEMRI–Wellcome Trust GeMVi Fellowship.
+
+## Computational expertise
+
+FEniCS/FEniCSx, PETSc, MATLAB, Python, Gmsh, meshio, PyVista, ParaView, numerical ODE/PDE methods, and scientific computing.
+
+A downloadable PDF CV can be added to this page once the latest CV file is placed in the repository's `files/` directory.
