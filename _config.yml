@@ -5,23 +5,23 @@ title_separator          : "-"
 name                     : &name "Victor Ogesa Juma"
 description              : &description "Academic website of Victor Ogesa Juma, applied mathematician and mathematical biologist."
 url                      : "https://vjuma23.github.io"
-baseurl                  : "/victor_juma"
-repository               : "vjuma23/victor_juma"
+baseurl                  : ""
+repository               : "vjuma23/vjuma23.github.io"
 
 author:
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Victor Ogesa Juma"
   bio              : "Applied mathematician and mathematical biologist"
   location         : "Johannesburg, South Africa"
   employer         : "University of the Witwatersrand"
   uri              :
-  email            :
+  email            : "victor.juma@wits.ac.za"
   academia         :
   arxiv            :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=WLlf2k8AAAAJ"
   inspire-hep      :
   impactstory      :
-  orcid            :
+  orcid            : "https://orcid.org/0000-0002-9832-0955"
   semantic         :
   ssrn             :
   pubmed           :
@@ -97,6 +97,9 @@ social:
   type                   : Person
   name                   : "Victor Ogesa Juma"
   links:
+    - "https://scholar.google.com/citations?hl=en&user=WLlf2k8AAAAJ"
+    - "https://orcid.org/0000-0002-9832-0955"
+    - "https://github.com/vjuma23"
 
 analytics:
   provider               : "false"
